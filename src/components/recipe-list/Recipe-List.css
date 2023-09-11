@@ -18,7 +18,7 @@
 
 .recipe-list .card:hover {
   transform: rotate(3deg);
-  border: 1px solid #58249c;
+  border: 1px solid #555;
 }
 
 .recipe-list .card h3 {
@@ -49,4 +49,17 @@
   padding: 8px;
   border-radius: 4px;
   margin: 20px auto 0;
+}
+
+/* dark mode */
+.recipe-list .card.dark {
+  background: #555;
+}
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+  color: #e4e4e4;
+}
+.card.dark:hover {
+  border: 1px solid #ffffff;
 }

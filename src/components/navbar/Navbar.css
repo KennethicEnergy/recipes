@@ -14,7 +14,7 @@
   color: #fff;
   text-decoration: none;
 }
-.navbar a:last-child {
+.navbar a.add-new {
   color: #fff;
   text-decoration: none;
   margin-left: 40px;
@@ -22,7 +22,7 @@
   border: 1px solid #fff;
   border-radius: 4px;
 }
-.navbar a:last-child:hover {
+.navbar a.add-new:hover {
   background: #fff;
   color: #333;
 }
